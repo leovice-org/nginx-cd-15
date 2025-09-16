@@ -1,0 +1,8 @@
+apiVersion: composition.krateo.io/v0-1-0
+kind: NginxWebServer
+metadata:
+  name: nginx-web-server-1
+  namespace: krateo-system
+spec:
+  # Add your values here
+  replicaCount: 1
